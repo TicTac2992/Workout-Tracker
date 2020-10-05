@@ -6,6 +6,7 @@ import apiRoutes from "./routes/apiRoutes";
 import htmlRoutes from "./routes/htmlRoutes";
 
 const PORT = process.env.PORT || 3000;
+const db = require("./models");
 
 const app = express();
 
