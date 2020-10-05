@@ -1,1 +1,3 @@
-export const Workout = require("./workout").default;
+module.exports = {
+    Workout: require("./workout")
+};
