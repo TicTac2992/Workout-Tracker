@@ -1,5 +1,5 @@
-import { Router } from "express";
-import { Workout } from "../models";
+const express = require("express");
+const db = require("../models");
 const router = Router();
 
 //get request
@@ -50,4 +50,4 @@ router.get("/workouts/range", (req, res) => {
   });
 });
 
-export default router;
+module.exports = router;
